@@ -7,3 +7,23 @@ local build command:
 Update the github-pages gem.
 If you installed Bundler, run bundle update github-pages.
 If you don't have Bundler installed, run gem update github-pages.
+
+# jekyllrb
+https://jekyllrb.com/
+https://jekyllrb.com/docs/installation/
+
+$ jekyll new --skip-bundle .
+# Creates a Jekyll site in the current directory
+
+# jekyllrb windows install
+https://jekyllrb.com/docs/installation/windows/
+https://rubyinstaller.org/downloads/
+- download ruby+Devkit tools
+- ridk install
+ From the options choose MSYS2 and MINGW development tool chain
+- Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective. Install Jekyll and Bundler using
+ gem install jekyll bundler
+- Check if Jekyll has been installed properly: jekyll -v
+
+
+
